@@ -2,11 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-white">
-        Tailwind CSS is Working! 🎉
-      </h1>
-    </div>
+    <section className="about">
+      <h2>About Me</h2>
+      <p>
+        I am a web developer based in New York City. I specialize in front-end
+        development and have experience working with both React and Angular.
+      </p>
+    </section>
   );
 }
 
